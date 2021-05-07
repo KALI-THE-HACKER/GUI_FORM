@@ -162,7 +162,7 @@ def submit(event=NONE):
     # Data saved successfully and showing an message to the user
 
     messagebox.showinfo('Congratulations!', 'Congrats '+fullname +
-                        '!You are successfully registered for covaxin')
+                        '!You are successfully registered for covaxin and your data is saved to Covaxin_dara.csv file in the GUI_FORM folder')
 
     # Sleep the script for 2 seconds and then terminate it
     time.sleep(2)
